@@ -12,3 +12,5 @@ SELECT name, birth, CURDATE(),
        FROM pet;
 SELECT * FROM pet WHERE name LIKE 'b%';
 SELECT COUNT(*) FROM pet;
+SELECT * FROM pet where owner='Diane';
+RENAME TABLE pet TO animals;
